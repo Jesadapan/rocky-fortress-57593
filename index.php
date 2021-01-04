@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,7 +10,14 @@
   <meta name="author" content="">
 
   <title>Clean Blog - Start Bootstrap Theme</title>
-
+ 
+  <style>
+    
+    h4{
+        color: white;
+    }
+  </style>
+ 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -25,27 +33,35 @@
 
 <body>
 
+<!--เกวลี สิทธิสมบูรณ์ 62101001
+เจษฎาพันธ์ ผ่องเส้ง 62101696
+ปาริชาติ ชูสิทธิ์ 62105960
+ธัญลักษณ์ ขวดหรีม 62104153
+ภคนันท์ หนูดำ 62116397-->
+
+
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand" href="index.html">Start Bootstrap</a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        Menu
-        <i class="fas fa-bars"></i>
-      </button>
+    <div>
+        <img width="380" height="80" src="https://informatics.wu.ac.th/wp-content/uploads/wu-04-1024x256.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://informatics.wu.ac.th/wp-content/uploads/wu-04-1024x256.png 1024w, https://informatics.wu.ac.th/wp-content/uploads/wu-04-300x75.png 300w, https://informatics.wu.ac.th/wp-content/uploads/wu-04-768x192.png 768w, https://informatics.wu.ac.th/wp-content/uploads/wu-04-1536x384.png 1536w, https://informatics.wu.ac.th/wp-content/uploads/wu-04-2048x512.png 2048w" sizes="(max-width: 1024px) 100vw, 1024px">
+    </div>
+      
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="index.html">หน้าหลัก</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link" href="about.html">เกี่ยวหลักสูตร</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="post.html">Sample Post</a>
+            <a class="nav-link" href="post.html">ห้องเรียน</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link" href="contact.html">อาชีพ</a>
+          </li> <li class="nav-item">
+           
           </li>
         </ul>
       </div>
@@ -53,14 +69,14 @@
   </nav>
 
   <!-- Page Header -->
-  <header class="masthead" style="background-image: url('img/home-bg.jpg')">
+  <header class="masthead" style="background-image: url('https://informatics.wu.ac.th/wp-content/uploads/78399516_2845642812126909_292547445349416960_o.jpg')">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="site-heading">
-            <h1>Clean Blog</h1>
-            <span class="subheading">A Blog Theme by Start Bootstrap</span>
+            <h3>Information Technology and Digital Innovation</h3>
+            <span class="subheading">เทคโนโลยีสารสนเทศและนวัตกรรมดิจิทัล</span>
           </div>
         </div>
       </div>
@@ -74,59 +90,59 @@
         <div class="post-preview">
           <a href="post.html">
             <h2 class="post-title">
-              Man must explore, and this is exploration at its greatest
+                “ITD เทคโนโลยีสารสนเทศและนวัตกรรมดิจิทัล”
             </h2>
             <h3 class="post-subtitle">
-              Problems look mighty small from 150 miles up
+                หลักสูตรเทคโนโลยีสารสนเทศและนวัตกรรมดิจิทัลหรือเรียกสั้น ๆ ว่า เด็ก ITD สังกัดสาขาวิชาเทคโนโลยีสารสนเทศ สำนักวิชาสารสนเทศาสตร์ ม.วลัยลักษณ์ เป็นหลักสูตรปรับปรุงใหม่ โดยหลักสูตรของเราสอนให้นักศึกษาเป็นนักแก้ไขปัญหา (Problem Solver) เรียนรู้อย่างเข้มข้น  รู้ปัญหา เก็บข้อมูล วิเคราะห์และออกแบบระบบ สร้างสิ่งใหม่ ทำการทดสอบ และใช้งานจริง พวกเราคือนักพัฒนาตัวจริงแบบครบวงจร เรามาดูชีวิตในมหาวิทยาลัยของพวกเค้ากันค่ะ
             </h3>
           </a>
-          <p class="post-meta">Posted by
-            <a href="#">Start Bootstrap</a>
-            on September 24, 2019</p>
+          <p class="post-meta">
+            <a href="#"></a>
+            </p>
         </div>
         <hr>
         <div class="post-preview">
           <a href="post.html">
             <h2 class="post-title">
-              I believe every human has a finite number of heartbeats. I don't intend to waste any of mine.
+             
             </h2>
           </a>
-          <p class="post-meta">Posted by
-            <a href="#">Start Bootstrap</a>
-            on September 18, 2019</p>
+          <p class="post-meta">
+            <a href="#"></a>
+           </p>
         </div>
         <hr>
         <div class="post-preview">
           <a href="post.html">
             <h2 class="post-title">
-              Science has not yet mastered prophecy
+              
             </h2>
             <h3 class="post-subtitle">
-              We predict too much for the next year and yet far too little for the next ten.
+              
             </h3>
           </a>
-          <p class="post-meta">Posted by
-            <a href="#">Start Bootstrap</a>
-            on August 24, 2019</p>
+          <p class="post-meta">
+            <a href="#"></a>
+            </p>
         </div>
         <hr>
         <div class="post-preview">
           <a href="post.html">
             <h2 class="post-title">
-              Failure is not an option
+              
             </h2>
             <h3 class="post-subtitle">
-              Many say exploration is part of our destiny, but it’s actually our duty to future generations.
+             
             </h3>
           </a>
-          <p class="post-meta">Posted by
-            <a href="#">Start Bootstrap</a>
-            on July 8, 2019</p>
+          <p class="post-meta">
+            <a href="#"></a>
+           </p>
         </div>
         <hr>
         <!-- Pager -->
         <div class="clearfix">
-          <a class="btn btn-primary float-right" href="#">Older Posts &rarr;</a>
+          <a class="btn btn-primary float-right" href="#"></a>
         </div>
       </div>
     </div>
